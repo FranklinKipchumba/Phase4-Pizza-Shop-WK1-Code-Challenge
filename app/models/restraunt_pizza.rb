@@ -1,4 +1,5 @@
 class RestrauntPizza < ApplicationRecord
-    belongs to :Pizza
-    belongs to :Restraunt
+    belongs_to :Pizza
+    belongs_to :Restraunt
 end
+
